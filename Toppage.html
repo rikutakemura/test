@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>市民の本音</title>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script
+ src="https://maps.google.com/maps/api/js?key=AIzaSyBgEKJK_Pvi5biMGJ6jb1_Cnr7zjkePKPY"></script>
+<link rel="stylesheet" type="text/css" href="/css/reset.css">
+<script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h1>市　民　の　本　音</h1>
+<div id="map" style="width:100%; height:1000px"></div>
+<div id="menu"></div>
+
+<h2>　評価実験を行うにあたって</h2>
+<p>本システムは、SNS(Twitter)から市民の不満や要望、意見などを収集・分析を行い可視化したシステムです
+	<br>より良いまちづくりを行うにあたって市民の声を収集することは必要不可欠であり、本システムはそれを援助することを目的としています
+	<br>本システムの使用者は、まちづくりなどを行う役所の職員などを想定しており、評価実験を行う被験者はそうのような立場で使用することを想定して利用していただけると幸いです
+	<br>操作方法など不明な点等ございましたら、下記の「使い方」をご参照ください
+	<br><br>情報の活用例 : 渋滞情報 → 渋滞緩和政策実施、治安悪いなどの市民からの多数の意見 → 警察と連携しパトロールの強化 etc...</p>
+
+
+
+<h2>　使い方</h2>
+<div class="flex">
+	<figure class="image"><img src="使い方1.png" alt=""></figure>
+	<div class="right">
+	  <p class="title">トップページ</p>
+	  <p class="text">情報を得たい市町村のマーカーをクリックして頂くと情報ウィンドウが表示されます<br>「リンク」をクリックすると各市町村のページに移動します
+		<br>※マップ下にある市町村名一覧からも同様に地域選択を行うことが可能です</p>
+	</div>
+  </div>
+  <div class="flex">
+	<figure class="image"><img src="使い方2.png" alt=""></figure>
+	<div class="right">
+	  <p class="title">各市町村のページ</p>
+	  <p class="text">ページ上部には、ワードクラウド※が表示されており、その下にツイート内容が表示されます
+		<br>各市町村のページでは、上部のワードクラウドで収集されたツイートの全体像を把握して頂き、
+		<br>下部で詳細のツイート内容を確認していただけるようになっております
+		<br>ワードクラウドでは出現頻度が高い単語が大きく表示され、出現頻度が低くなるにつれ文字の
+		<br>サイズが小さくなります
+		<br>市町村の規模により情報量に差がありますがご了承ください
+		<br>※ワードクラウド：文章中に使われているキーワードを一覧で表示する機能</p>
+	</div>
+  </div>
+</body>
+</html>
